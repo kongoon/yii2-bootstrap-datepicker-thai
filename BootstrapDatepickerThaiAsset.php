@@ -14,7 +14,7 @@ class BootstrapDatepickerThai extends AssetBundle
 
     public $js = [
         'js/bootstrap-datepicker.js',
-        'js/locales/bootstrap-datepicker.'.Yii::$app->language.'.js'
+        //'js/locales/bootstrap-datepicker.'.Yii::$app->language.'.js'
     ];
 
     public $depends = [
