@@ -11,7 +11,8 @@ Usage
 To use this widget, insert the following code into a view file:
 ```php
 <?php
-echo PrintThis::widget([
+use kongoon\yii2\datepickerthai\BootstrapDatepickerThai;
+echo BootstrapDatepickerThai::widget([
 	'options' => [
 		'id' => 'yourid',
 		'format' => 'dd/mm/yyyy',
