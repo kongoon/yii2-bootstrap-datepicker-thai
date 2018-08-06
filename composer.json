@@ -2,28 +2,22 @@
     "name": "kongoon/yii2-bootstrap-datepicker-thai",
     "description": "Bootstrap datepicker for Buddhist-Era or Christian-Era",
     "homepage": "https://github.com/kongoon/yii2-bootstrap-datepicker-thai",
-    "keywords": [
-        "yii2",
-        "framework",
-        "datepicker",
-        "thai",
-        "buddhist"
-    ],
+    "keywords": ["yii2", "framework", "datepicker", "thai", "buddhist"],
     "type": "yii2-extension",
-    "require": {
-        "php": ">=5.4",
-        "yiisoft/yii2": "~2.0.4",
-        "bower-asset/bootstrap-datepicker": "*",
-        "bower-asset/bootstrap-datepicker-thai": "dev-master"
-    },
     "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Manop Kongoon",
-            "email": "kongoon@hotmail.com"
+            "email": "kongoon@hotmail.com",
+            "homepage": "https://www.programmerthailand.com/"
         }
     ],
     "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.6",
+        "bower-asset/bootstrap-datepicker": "*",
+        "bower-asset/bootstrap-datepicker-thai": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "kongoon\\yii2\\datepickerthai\\": ""
