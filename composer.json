@@ -1,6 +1,7 @@
 {
     "name": "kongoon/yii2-bootstrap-datepicker-thai",
     "description": "Bootstrap datepicker for Buddhist-Era or Christian-Era",
+    "homepage": "https://github.com/kongoon/yii2-bootstrap-datepicker-thai",
     "keywords": [
         "yii2",
         "framework",
@@ -22,5 +23,10 @@
             "email": "kongoon@hotmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "kongoon\\yii2\\datepickerthai\\": ""
+        }
+    }
 }
